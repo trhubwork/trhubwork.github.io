@@ -13,8 +13,8 @@ module.exports = function(grunt) {
     },
     cssmin: {
       build: {
-        src: 'css/style.css',
-        dest: 'css/style.min.css'
+        src: 'views/css/bootstrap-grid.css',
+        dest: 'views/css/bootstrap-grid.min.css'
       }
   }
   });
